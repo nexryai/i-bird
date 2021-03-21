@@ -2,7 +2,6 @@
     /* i-bird 0.2.1 */
 
     $imageBaseURL = "http://www3.nhk.or.jp/sokuho/jishin/"; 
-
     $rawReportXML = mb_convert_encoding(file_get_contents("http://www3.nhk.or.jp/sokuho/jishin/data/JishinReport.xml"), "UTF-8", "SJIS"); /* 2 */
 
     
